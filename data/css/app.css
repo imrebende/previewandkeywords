@@ -1,0 +1,96 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+body {
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.btns-panel {
+    padding-bottom: 5px;
+}
+
+.btns-panel-right {
+    padding-right: 15px;
+}
+
+.btns-panel .btn {
+    margin-right: 5px;
+}
+
+.view {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.preview {
+    flex: 1;
+    border: 0;
+    /*-webkit-transform-origin: 0 0;
+    -webkit-transform: scale(0.7);
+    min-width: 135%;
+    min-height: 137%;*/
+}
+
+.preview::-webkit-scrollbar{
+    width: 7px;
+    height: 7px;
+}
+.preview::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.preview::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  /*outline: 1px solid slategrey;*/
+}
+
+#container {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.close-button {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: -19px;
+    left: -19px;
+    margin-top: -15px;
+    cursor: pointer;
+}
+
+.preview-panel {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.preview-zoom {
+    display: inline;
+}
+
+.preview-progress {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.share-btns {
+    margin-right: 20px;
+}
+.share-btns > a {
+    margin-right: 5px;
+}

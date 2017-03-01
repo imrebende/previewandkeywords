@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+		<meta http-equiv="Content-Security-Policy" content="script-src 'self' http://xxxx 'unsafe-inline' 'unsafe-eval';">
+        <link rel="stylesheet" href="/data/lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/data/css/app.css">
+		<script src="/data/js/jquery-3.1.1.min.js"></script>
+		<style>
+			.word {
+				-moz-border-radius:5px;
+				-webkit-border-radius:5px;
+				padding:3px;
+			}
+			.word:hover .add {
+				-webkit-border-top-left-radius: 5px;
+				-webkit-border-bottom-left-radius: 5px;
+				-webkit-box-shadow:0 1px 1px #777;
+				color:#000;
+				background-color:#B5FFCB;
+			}
+			.add{
+				padding:3px 0 3px 3px;
+			}
+			.add:hover{
+				background-color:#75FF8B!important;
+			}
+			.word:hover .remove {
+				-webkit-border-top-right-radius: 5px;
+				-webkit-border-bottom-right-radius: 5px;
+				-webkit-box-shadow:0 1px 1px #777;
+				color:#000;
+				background-color:#FFA5A5;
+			}
+			.remove {
+				padding:3px 3px 3px 0;
+			}
+			.remove:hover {
+				background-color:#FF8585!important;
+			}
+			.highlight {
+				background-color:#FFFC47;
+			}
+			.hide{
+				display:none!important;
+			}
+			#wordContainer::-webkit-scrollbar {
+				width: 0px;
+			}
+		</style>
+    </head>
+    <body>
+        <script src="/data/js/preview.js"></script>
+    </body>
+</html>

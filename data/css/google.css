@@ -1,0 +1,31 @@
+.sp-preview {
+    right: 0px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+
+    width: 50%;
+    height: 100%;
+
+    background-color: #fff;
+    z-index: 9999;
+    border: 0;
+}
+
+.sp-sticky {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+.sp-snippet::before {
+    background-color: #c9481c;
+    color: white;
+    height: 30px;
+    content: "\00bb";
+    position: relative;
+    float: left;
+    left: -6px;
+    margin-left: -13px;
+    padding: 3px;
+}
