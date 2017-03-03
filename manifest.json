@@ -429,7 +429,8 @@
         {
             "matches": [
                 "*://yandex.ru/yandsearch*",
-                "*://yandex.ru/search*"
+                "*://yandex.ru/search*",
+				"*://www.yandex.com/*"
             ],
             "js": [
                 "data/js/yandex.js"

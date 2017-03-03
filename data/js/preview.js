@@ -10720,8 +10720,10 @@ function processPage() {
 			
 			//Betűméretének beállítása, maximalizálása
 			//var size = (wordsArray[i].weight * 1.000000001 + 4);
-			var size = 12;
-			if(size > 40) size = 40;
+			/*var size = 12;
+			if(size > 40) size = 40;*/
+			
+			var size = 9 + (wordsArray[i].weight/wordsArray[0].weight *  3);
 			
 			words += '<span class="word" style="cursor:pointer;font-size:' + ( size ) + 'pt;' +
 																'line-height:' + ( size ) +  'pt;"><span class="add">' + wordsArray[i].name.slice(0,wordsArray[i].name.length/2) + '</span><span class="remove">' + wordsArray[i].name.slice(wordsArray[i].name.length/2) + '</span></span>';
